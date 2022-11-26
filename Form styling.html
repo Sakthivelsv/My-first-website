@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grouping Fields and Lengend tag</title>
+        <style>
+            fieldset{
+                border: 5px solid skyblue;
+                margin-bottom: 25px;
+                border-radius: 15px;
+                padding-left: 40px;
+                
+            }
+            legend{
+                background-color: darkorange;
+                padding: 5px;
+                border-radius: 5px;
+                margin-left: -25px;
+            }
+            #save{
+                background-color: aqua;
+                
+                
+            }
+            
+        </style>
+        <body>
+            <form>
+                <fieldset>
+                    <legend>Login Details</legend>
+                
+                <p>
+                    <label for="user-name">Name:</label><br>
+                    <input type="text" name="user-name" id="user-name">
+                </p>
+                <p>
+                    <label for="E-mail">E-mail:</label><br>
+                    <input type="text" name="E-mail" id="E-mail">
+                </p>
+                <p>
+                    <label for="password">Password:</label><br>
+                    <input type="text" name="password" id="password">
+                        
+                </p>
+                </fieldset>
+
+
+
+
+                <br>
+                <fieldset>
+                <legend>Contact Details</legend>
+                <p>
+                    <label for="Door number">Door NO:</label><br>
+                    <input type="text" name="door number" id="door number">
+                </p>
+                <p>
+                    <label for="Street">Street:</label><br>
+                    <input type="text" name="Street" id="Street">
+                </p>
+                <p>
+                    <label for="District">District:</label><br>
+                    <input type="text" name="District" id="District">
+                </p>
+                <p>
+                    <label for="Pincode">PIN CODE:</label><br>
+                    <input type="text" name="Pincode" id="Pincode">
+
+                </p>
+                <p>
+                    <label for="State">State:</label><br>
+                    <input type="text" name="State" id="State">
+                </p>
+                </fieldset>
+                <p>
+                    <input type="submit" value="Save" name="lable-form" id="save">
+                </p>
+            </form>
+
+        </body>
+    </head>
+</html>
